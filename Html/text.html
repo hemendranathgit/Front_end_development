@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>This is normal text</p>
+    <p>This is <b> bold </b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <u>underlined</u> text</p>
+    <p>This is <del>deleted</del> text</p>
+    <p>This is <big> Big </big> text</p>
+    <p>This is <small> small </small> text</p>
+    <p>This is <sub> subscript</sub> text</p>
+    <p>This is <sup> superscript</sup> text</p>
+    <p>
+      This is
+      <mark style="background-color: chartreuse">highlighted </mark> text
+    </p>
+
+    <h4>unordered grocery</h4>
+    <ul>
+      <li>milk</li>
+      <li>bread</li>
+      <li>cookies</li>
+      <ul>
+        <li>hemendranath</li>
+        <li>madhineni</li>
+      </ul>
+    </ul>
+    <h4>ordered list</h4>
+    <ol>
+      <li>sleep</li>
+      <li>eat</li>
+      <li>mobile</li>
+      <li>repeat</li>
+    </ol>
+    <h3>store hours in tables</h3>
+    <table border="1" style="background-color: cadetblue">
+      <tr align="center" style="background-color: greenyellow">
+        <!-- tr =table row , th = table header, td = table data -->
+        <th>sunday</th>
+        <th>monday</th>
+        <th>tuesday</th>
+        <th>saturday</th>
+      </tr>
+      <tr align="center">
+        <td>work</td>
+        <td>11-8</td>
+        <td>11-8</td>
+        <td>11-8</td>
+      </tr>
+    </table>
+
+    <!-- buttons -->
+    <a href="image.html">
+      <button
+        onclick="dosomthing()"
+        style="background-color: blue; color: black; border-radius: 20px"
+      >
+        click me
+      </button>
+    </a>
+    <hr />
+
+    <button
+      onclick="dosomthing()"
+      style="background-color: blue; color: black; border-radius: 20px"
+    >
+      click me
+    </button>
+
+    <p id="greeting">hello pista</p>
+    <script>
+      function dosomthing() {
+        document.getElementById("greeting").innerHTML = "thanks for clicking ";
+      }
+    </script>
+  </body>
+</html>
