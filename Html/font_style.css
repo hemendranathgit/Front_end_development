@@ -1,0 +1,17 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: solid;
+  border-width: 3px;
+  border-color: coral;
+  /* insted of all the above theree you can directly use
+  border: 3px solid rgb(161, 108, 226);
+  
+  */
+  border-radius: 73px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+}

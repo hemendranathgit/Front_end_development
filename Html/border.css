@@ -1,0 +1,38 @@
+body {
+  border: dotted;
+  display: flow-root;
+}
+h1 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: coral;
+  /* insted of all the above theree you can directly use
+    border: 3px solid rgb(161, 108, 226);
+    
+    */
+  border-radius: 73px;
+}
+h2 {
+  text-shadow: 2px 3px 4px red, -2px -3px 4px green;
+}
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(75, 183, 230);
+  box-shadow: 3px 3px 5px red;
+}
+
+#para {
+  border-bottom: 3px solid aqua;
+  border-top: 2px dotted greenyellow;
+  border-left: 3px solid red;
+  border-right: 3px solid rgb(24, 218, 108);
+  border-radius: 10px;
+}
+
+#hemu {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}

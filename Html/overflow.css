@@ -1,0 +1,15 @@
+div {
+  border: 1px solid red;
+  height: 50px;
+  overflow: scroll;
+  overflow: auto;
+}
+
+.box {
+  border: 2px solid;
+  padding: 25px;
+  box-sizing: border-box;
+  height: auto;
+  width: 50%;
+  float: left;
+}
