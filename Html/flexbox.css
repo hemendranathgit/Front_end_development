@@ -1,0 +1,31 @@
+* {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+div {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  border: 3px double red;
+}
+
+#maindiv {
+  width: 1600px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: sp;
+}
+#box1 {
+  background-color: red;
+}
+#box2 {
+  background-color: blue;
+}
+#box3 {
+  background-color: yellow;
+}
+#box4 {
+  background-color: green;
+}

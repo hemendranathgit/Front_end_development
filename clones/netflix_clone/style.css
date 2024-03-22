@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif, Arial, Helvetica;
+}
+.main {
+  background-image: url(images/bg.jpg);
+  background-position: center center;
+  background-size: max(1900px, 100%);
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+}
+.main .box {
+  height: 80vh;
+  width: 100%;
+  opacity: 0.44;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  /* padding-left: 5rem;
+  padding-right: 5rem; */
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+nav img {
+  color: red;
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  position: relative;
+  gap: 15px;
+  padding: 23px;
+  text-align: center;
+}
+.hero > :nth-child(1) {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+}

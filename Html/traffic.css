@@ -1,0 +1,22 @@
+div {
+  height: 104px;
+  width: 22px;
+  border: 1px solid black;
+}
+
+.traffic {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 50%;
+}
+#re {
+  background-color: red;
+}
+#ye {
+  background-color: yellow;
+}
+#gr {
+  background-color: green;
+}

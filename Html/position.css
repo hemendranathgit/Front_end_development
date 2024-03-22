@@ -1,0 +1,14 @@
+#box1 {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  position: fixed;
+}
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(33, 183, 30);
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
