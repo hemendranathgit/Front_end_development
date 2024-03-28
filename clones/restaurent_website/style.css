@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+nav {
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+  position: sticky;
+  top: 0;
+  margin-bottom: 32px;
+  background: white;
+  padding: 15px;
+}
+a {
+  text-decoration: none;
+  font-size: 10px;
+  color: gray;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  font-size: larger;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-solid {
+  font-size: 35px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hero {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.food-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.food-text span {
+  background-color: rgb(136, 219, 11);
+  color: white;
+  padding: 5px 10px;
+  align-self: flex-start;
+}
+.food-text h1 {
+  font-size: 72px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.food-text button {
+  color: white;
+  background-color: rgb(239, 187, 17);
+  align-self: flex-start;
+}
+.features {
+  margin: 100px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.feature {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  transition: 0.2s ease-in-out;
+}
+.feature:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+}
+.line {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tag {
+  background-color: rgb(13, 190, 13);
+  color: white;
+  padding: 5px;
+}
+
+.explore-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: burlywood;
+  padding-top: 20px;
+}
+.foot-man {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main1 {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
+  .food-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .food-logo img {
+    width: 80%;
+  }
+  .food-text {
+    gap: 10px;
+    padding: 10px;
+  }
+  .food-text h1 {
+    font-size: 37px;
+    line-height: 1.2;
+  }
+  .features {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .explore-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .explore-image img {
+    width: 80%;
+  }
+}
